@@ -9,66 +9,62 @@
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8" />
 	<title>Ethos Consulting Home</title>
 	<link rel="stylesheet" type="text/css" href="active.css">
 </head>
 <body>
-	<div class="header">
-		<div> <span> Ethos </span> Consulting</div>  <!-- This will be the logo, I (Angela) will probibly work around with this later. You can add too!-->
-		<h3>
-			Home
-			About
-			Product
-			FAQ
-			Contact Us
-		</h3> <!-- The buttons on header, spaced them out for easier reading as they will all be links-->
-	</div>
+	<div class="header" id = "sticky_header">
+		<div class="logo">
+		  <a href="#">
+			<img src="img/logo.png" alt="Ethos Consulting Logo">
+		  </a>
+		</div>
+		<ul>
+				<li><a href="#" target=“_blank”>Home</a></li>
+				<li><a href="#" target=“_blank”>About</a></li>
+				<li><a href="#" target=“_blank”>Product</a></li>
+				<li><a href="#" target=“_blank”>FAQ</a></li>
+				<li><a href="#" target=“_blank”>Contact Us</a></li>
+		</ul> <!-- The buttons on header, spaced them out for easier reading as they will all be links-->
+	  </div>
+	  
 	<!-- Illustrations need to be placed on the same row as caption, but other side of the page(left/right), we need text-->
-	<p class="captionR">
+	<div class="caption1">
 		<!-- Placeholder text, supposed to be caption/intro-->
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer et lorem eu nisl suscipit tempor.
-		Ut condimentum a velit at interdum. Ut dignissim, tellus sed lobortis porttitor, dui lectus suscipit
-		ex, sit amet semper quam nisi non lacus. Etiam mauris metus, placerat a ullamcorper sed, aliquam non
-		tellus. Proin hendrerit placerat rutrum. Praesent nec consectetur sem. Vivamus sodales, mauris eget
-		ornare rhoncus, augue eros ornare risus, varius finibus ligula justo quis felis. Proin non suscipit
-		mi, eu cursus eros. Donec ex augue, pulvinar malesuada facilisis nec, rhoncus eget libero. Donec orci
-		arcu, lacinia quis elementum sagittis, malesuada non elit. In pharetra, urna a egestas dictum, odio
-		quam tincidunt nunc, eget accumsan metus magna nec mauris. Fusce ultricies feugiat mauris, ut dictum
-		tellus pretium vitae. Morbi luctus tempor elit sed gravida. Integer orci ipsum, laoreet id erat eget,
-		maximus egestas orci. Nulla ac erat ante.
-	</p>
-	<p class="captionL">
+		<h1>Run a business that does good.</h1>
+		<p>At Ethos we help make your business ethical.</p>
+	</div>
+	<div class="captionR">
 		<!-- Placeholder text, supposed to be caption/intro-->
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer et lorem eu nisl suscipit tempor.
-		Ut condimentum a velit at interdum. Ut dignissim, tellus sed lobortis porttitor, dui lectus suscipit
-		ex, sit amet semper quam nisi non lacus. Etiam mauris metus, placerat a ullamcorper sed, aliquam non
-		tellus. Proin hendrerit placerat rutrum. Praesent nec consectetur sem. Vivamus sodales, mauris eget
-		ornare rhoncus, augue eros ornare risus, varius finibus ligula justo quis felis. Proin non suscipit
-		mi, eu cursus eros. Donec ex augue, pulvinar malesuada facilisis nec, rhoncus eget libero. Donec orci
-		arcu, lacinia quis elementum sagittis, malesuada non elit. In pharetra, urna a egestas dictum, odio
-		quam tincidunt nunc, eget accumsan metus magna nec mauris. Fusce ultricies feugiat mauris, ut dictum
-		tellus pretium vitae. Morbi luctus tempor elit sed gravida. Integer orci ipsum, laoreet id erat eget,
-		maximus egestas orci. Nulla ac erat ante.
-	</p>
-	<p class="captionR">
+		<h2>The Problem: </h2>
+		<p>
+		<br>
+		With social injustice in professional workplaces on the rise, companies are rightly being held accountable for their unethical business practices. 
+		Consumers are far less likely to buy/invest in a company that they do not morally align with.
+		</p>
+	</div>
+	<div class="captionL">
 		<!-- Placeholder text, supposed to be caption/intro-->
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.Integer et lorem eu nisl suscipit tempor.
-		Ut condimentum a velit at interdum. Ut dignissim, tellus sed lobortis porttitor, dui lectus suscipit
-		ex, sit amet semper quam nisi non lacus. Etiam mauris metus, placerat a ullamcorper sed, aliquam non
-		tellus. Proin hendrerit placerat rutrum. Praesent nec consectetur sem. Vivamus sodales, mauris eget
-		ornare rhoncus, augue eros ornare risus, varius finibus ligula justo quis felis. Proin non suscipit
-		mi, eu cursus eros. Donec ex augue, pulvinar malesuada facilisis nec, rhoncus eget libero. Donec orci
-		arcu, lacinia quis elementum sagittis, malesuada non elit. In pharetra, urna a egestas dictum, odio
-		quam tincidunt nunc, eget accumsan metus magna nec mauris. Fusce ultricies feugiat mauris, ut dictum
-		tellus pretium vitae. Morbi luctus tempor elit sed gravida. Integer orci ipsum, laoreet id erat eget,
-		maximus egestas orci. Nulla ac erat ante.
-	</p>
+		<h2>The solution we provide: </h2> <br>
+		<p>
+			Ethos provides businesses with business strategies, data privatization, and sex and race equity to build more ethical business practices.
+		</div>
 
-	<p>
+	<div class = "foot">
+		<h2>Let's Keep in Touch!</h2>
 
-	</p>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class = "contact-list">
+            <li><a href="mailto:dawasherpa1022@gmail.com" target=“_blank”>Email</a></li>
+            <li><a href="#" target=“_blank”>LinkedIn</a></li>
+            <li><a href="#" target=“_blank”>Facebook</a></li>
+            <li><a href="#" target=“_blank”>Instagram</a></li>
+          </ul>
+	</div>
+	<script src="active.js"></script>
 </body>
 </html>
