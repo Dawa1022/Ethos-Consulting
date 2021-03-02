@@ -58,7 +58,7 @@ p {
 .caption1 {
   /* Used for paragraphs that will have an illustration to its side*/
   background-color: #e0ffff;
-  padding: 159px;
+  padding: 200px;
   width: 100%;
   margin-top: 84px;
   text-align: center;
@@ -72,6 +72,7 @@ p {
   margin: 10px;
   float: right;
   width: 50%;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -82,8 +83,24 @@ p {
   margin: 10px;
   float: left;
   width: 50%;
+  text-align: center;
   font-size: 18px;
 }
+
+/*
+.imgR {
+  padding: 110px;
+  float: right;
+  width: 60%;
+}
+
+.imgL {
+  padding: 110px;
+  float: left;
+  width: 60%;
+}
+*/
+
 .foot {
   /*Used to style footer*/
   font-size: 18px;
@@ -102,4 +119,37 @@ p {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+@media screen and (max-width:769px){
+.caption1 {
+  padding: 140px;
+}
+.header {
+  font-size: 18px;
+}
+.captionR {
+  float: none;
+  width: 100%;
+  font-size: 20px;
+}
+.captionL {
+  float: none;
+  width: 100%;
+  font-size: 20px;
+}
+}
+@media screen and (max-width:500px){
+.caption1 {
+  padding: 80px;
+}
+.header {
+  font-size: 15px;
+}
+.captionR {
+  font-size: 23px;
+}
+.captionL {
+  font-size: 23px;
+}
 }
