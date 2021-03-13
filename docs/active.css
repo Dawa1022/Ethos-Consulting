@@ -51,6 +51,13 @@ p {
   font-weight: 500;
   transition: color 0.4s;
 }
+#unknown {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: url("img/avatar.jpg");
+  background-size: cover;
+}
 
 .tag-line {
   /* Used for paragraphs that will have an illustration to its side*/
