@@ -13,6 +13,11 @@ body {
 p {
   text-align: center;
 }
+
+hr{
+  width: 50%;
+  margin: auto;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -68,16 +73,42 @@ p {
   font: 2.3rem "Cairo", sans-serif;
   color: #d4e3ff;
 }
+
+.rising-text{
+  position: relative;
+  animation-name: rise;
+  animation-duration: 4s;
+}
+
+@keyframes rise {
+  0%   {top:200px;}
+  100% {top:0px;}
+}
+
 .text-box {
   padding: 0.5em 2em;
   text-align: center;
   font-size: 18px;
 }
 
+.long-text{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left:5em;
+  padding-right:5em;
+}
+
 .information {
   max-width: 1200px;
   padding-top: 4em;
   margin: 0 auto;
+}
+
+.title{
+ text-align:center;
+ font-size: 30px; 
 }
 
 .foot {
