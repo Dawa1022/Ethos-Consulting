@@ -233,4 +233,9 @@ hr{
     font: 2.3rem "Cairo", sans-serif;
     color: #d4e3ff;
   }
+
+  .long-text{
+    padding-left:2em;
+    padding-right:2em;
+  }
 }
