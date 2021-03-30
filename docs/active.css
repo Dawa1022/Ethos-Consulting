@@ -171,6 +171,7 @@ hr{
   font-size: 1.5em;
 }
 
+
 .long-text{
   text-align: center;
   font-size: 1.5em;
@@ -184,6 +185,13 @@ hr{
   max-width: 1200px;
   padding-top: 4em;
   margin: 0 auto;
+}
+
+.button{
+  color: white;
+  border-radius: 10px;
+  padding: .5em;
+  background: #0850b1;
 }
 
 .title{
