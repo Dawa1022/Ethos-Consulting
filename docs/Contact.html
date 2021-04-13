@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ethos Consulting Products</title>
-	<link rel="stylesheet" type="text/css" href="active.css">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/base-min.css">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-min.css">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethos Consulting Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
 	<div class="header" id = "sticky_header">
 		<div class="logo">
 		  <a href="#">
@@ -24,35 +24,96 @@
 				<li><a href="FAQ.html">FAQ</a></li>
 				<li><a href="Contact.html">Contact Us</a></li>
 		</ul> <!-- The buttons on header, spaced them out for easier reading as they will all be links-->
-	  </div>
-
-
-	<!-- Illustrations need to be placed on the same row as caption, but other side of the page(left/right), we need text-->
-<div class="tag-line pure-g">
-	<div class="pure-u-1">
-		<!-- Placeholder text, supposed to be caption/intro-->
-		<h1>Contact Us</h1>
-		<br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies sodales turpis.</p>
 	</div>
-</div>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            We would love to help you in your journey to create better business!
+          </p>
 
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>123 5th Ave, New York, 12345</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>consultants@ethos.org</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>123-456-7890</p>
+            </div>
+          </div>
 
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-	<div class = "foot">
-		<h2>Let's Keep in Touch!</h2>
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
 
-          <!-- Social media and contact links. Add or remove any networks. -->
-          <ul class = "contact-list">
-            <li><a href="mailto:dawasherpa1022@gmail.com" target=“_blank”><img src="img/Email.png" alt="Email" style="width: 35px; height:35px;"></a></li>
-            <li><a href="#" target=“_blank”><img src="img/LinkedIn.png" alt="LinkedIn" style="width:35px; height:35px;"></a></li>
-            <li><a href="#" target=“_blank”><img src="img/Facebook.png" alt="Facebook" style="width:35px; height:35px;"></a></li>
-            <li><a href="#" target=“_blank”><img src="img/Instagram.png" alt="Instagram" style="width:35px; height:35px;"></a></li>
-          </ul>
-          <br>
-		  <br>
-          <p id="copyright">&#169; Ethos - 2021</p>
-	</div>
-	<script src="active.js"></script>
-</body>
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class = "foot">
+			<h2>Let's Keep in Touch!</h2>
+	
+			  <!-- Social media and contact links. Add or remove any networks. -->
+			  <ul class = "contact-list">
+				<li><a href="mailto:dawasherpa1022@gmail.com" target=“_blank”><img src="img/Email.png" alt="Email" style="width: 35px; height:35px;"></a></li>
+				<li><a href="#" target=“_blank”><img src="img/LinkedIn.png" alt="LinkedIn" style="width:35px; height:35px;"></a></li>
+				<li><a href="#" target=“_blank”><img src="img/Facebook.png" alt="Facebook" style="width:35px; height:35px;"></a></li>
+				<li><a href="#" target=“_blank”><img src="img/Instagram.png" alt="Instagram" style="width:35px; height:35px;"></a></li>
+			  </ul>
+			  <br>
+			  <p id="copyright">&#169; Ethos - 2021</p>
+		</div>
+
+    <script src="active.js"></script>
+  </body>
 </html>
